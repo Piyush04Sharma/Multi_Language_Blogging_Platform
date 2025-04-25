@@ -1,0 +1,134 @@
+/**
+ * RTL Stylesheet
+ * 
+ * This file contains styles for RTL (right-to-left) languages.
+ */
+
+/* General RTL styles */
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+/* Header */
+.navbar-nav {
+    padding-right: 0;
+}
+
+.navbar-brand {
+    margin-right: 0;
+    margin-left: 1rem;
+}
+
+.me-lg-3 {
+    margin-right: 0 !important;
+    margin-left: 1rem !important;
+}
+
+.me-2 {
+    margin-right: 0 !important;
+    margin-left: 0.5rem !important;
+}
+
+.ms-2 {
+    margin-left: 0 !important;
+    margin-right: 0.5rem !important;
+}
+
+.pe-lg-5 {
+    padding-right: 0 !important;
+    padding-left: 3rem !important;
+}
+
+.pe-lg-4 {
+    padding-right: 0 !important;
+    padding-left: 1.5rem !important;
+}
+
+/* Footer */
+.footer-list-29 ul li {
+    padding-right: 0;
+    padding-left: 1.5rem;
+}
+
+.footer-list-29 ul li:before {
+    right: auto;
+    left: 0;
+}
+
+/* Grid and layout */
+.text-left {
+    text-align: right !important;
+}
+
+.text-right {
+    text-align: left !important;
+}
+
+/* Forms */
+.form-control {
+    text-align: right;
+}
+
+/* Icons */
+.fa-chevron-right:before {
+    content: "\f053";
+}
+
+.fa-chevron-left:before {
+    content: "\f054";
+}
+
+/* Accordion */
+.accordion-title {
+    padding-right: 0;
+    padding-left: 2.5rem;
+}
+
+.accordion-title .icon {
+    right: auto;
+    left: 0;
+}
+
+/* Search popup */
+.w3lpopup form {
+    flex-direction: row-reverse;
+}
+
+/* Language selector */
+.language-selector {
+    margin-right: 0 !important;
+    margin-left: 1rem !important;
+}
+
+/* Blog posts */
+.blog-post-meta {
+    text-align: right;
+}
+
+.blog-post-meta span {
+    margin-right: 0;
+    margin-left: 1rem;
+}
+
+/* Comments */
+.comment-author {
+    text-align: right;
+}
+
+.comment-author .avatar {
+    float: right;
+    margin-right: 0;
+    margin-left: 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    .navbar-nav {
+        padding-right: 0;
+    }
+    
+    .navbar-collapse {
+        text-align: right;
+    }
+} 
